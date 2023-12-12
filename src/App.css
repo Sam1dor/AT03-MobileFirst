@@ -1,0 +1,62 @@
+body {
+  background-color: #eef5e9;  
+}
+
+.header__container {
+  width: 100vw;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.vendedores__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.produtosRelacionados__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.produtosRelacionados__container-box2 {
+  display: none;
+}
+
+.botaoCustom {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+@media (min-width: 415px) {
+  .vendedores__container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 25px 0;
+  }
+
+  .produtosRelacionados__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 25px 0;
+  }
+
+  .produtosRelacionados__container-box2 {
+    display: flex;
+    gap:20px;
+  }
+
+  .botaoCustom {
+    display: none;
+  }
+  
+}

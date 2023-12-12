@@ -1,0 +1,10 @@
+.perguntas__container {
+  margin: 0 10px;
+}
+
+@media (min-width: 415px) {
+  .perguntas__container {
+    margin: 15px 0;
+    width: 50vw;
+  }
+}

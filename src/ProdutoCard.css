@@ -1,0 +1,48 @@
+.produto__descricao {
+  text-align: justify;
+}
+
+.nota__container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.comentarios__container {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.comentarios__container-usuarios {
+  display: flex;
+}
+
+.comentarios__container-box {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: #414149;
+}
+
+.comentarios__container-box-cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 15px;
+  font-weight: 700;
+ 
+}
+
+.comentarios__container-box-cabecalho-nota {
+  display: flex;
+  align-items: center;
+}
+
+.comentarios__data {
+  margin-top: 5px;
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+  font-style: italic;
+}

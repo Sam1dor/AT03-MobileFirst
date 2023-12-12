@@ -1,0 +1,7 @@
+.notavendedor__container {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  color: #414149;
+  font-weight: 700;
+}

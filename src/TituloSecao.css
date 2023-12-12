@@ -1,0 +1,31 @@
+.titulo__container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin: 15px 0 15px 40px;
+  
+}
+
+.titulo__secao {
+  font-size: 24px;
+  font-weight: bold;
+  color: #414149;
+  font-family: sans-serif;
+}
+
+
+@media (min-width: 415px) {
+  .titulo__container {
+    background-image: linear-gradient(to bottom,#eef5e9,#cce0bd);
+    width: 100vw;
+    margin: 15px 0 15px 0;
+    padding: 10px 0;
+  }
+  
+  .titulo__secao {
+    font-size: 32px;
+    margin: 20px 0  20px 250px;
+    backgound-color: white;
+    width: 100vw;
+  }
+}
